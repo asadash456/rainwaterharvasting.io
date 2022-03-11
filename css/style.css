@@ -1,0 +1,31 @@
+body{
+  font-family: 'Oxygen', sans-serif;
+  }
+  .navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 22px;
+  }
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+  }
+  
+  .navbar-default.scrolled {
+    background-color: #343a40 !important;
+    transition: background-color 500ms ease;
+  }
+  .dropdown-item:hover {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .navbar .nav-item .dropdown-menu{ 
+    display: none;
+   }
+  .navbar .nav-item:hover .dropdown-menu{ 
+    display: block;
+   }
+  .navbar .nav-item .dropdown-menu{ 
+    margin-top:0; 
+  }
+ 
